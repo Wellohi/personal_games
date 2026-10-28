@@ -32,7 +32,6 @@ def buy_upgrade(upgrade_key, cost):
     data = load_game_data()
     if data["total_credits"] >= cost:
         data["total_credits"] -= cost
-        # Initialize permanent_upgrades if missing
         if "permanent_upgrades" not in data:
             data["permanent_upgrades"] = {}
 

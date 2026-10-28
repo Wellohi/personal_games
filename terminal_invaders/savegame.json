@@ -1,8 +1,8 @@
 {
-    "total_credits": 18,
+    "total_credits": 29,
     "permanent_upgrades": {
-        "max_health": 0,
-        "fire_rate_boost": 0,
-        "starting_xp": 0
+        "max_health": 2,
+        "fire_rate_boost": 1,
+        "starting_xp": 3
     }
 }
